@@ -30,8 +30,9 @@ Executions config is just an array of options.
 - output.extension: "result file format"
 
 Only switch-type fields are:
-    - connection.storage: "mysql", "mssql"
-    - output.extension: "csv", "pipe"
+
+- connection.storage: "mysql"/"mssql"
+- output.extension: "csv"/"pipe"
 
 ```json
 [
